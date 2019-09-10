@@ -1,0 +1,7 @@
+<h1>{{page}} {{id}}</h1>
+
+<form action='.' class="" method="POST">{%csrf_token%}
+{{ form.as_p}}
+<input type="submit" value="save">
+<a href='../../'>Back</a>
+</form>
