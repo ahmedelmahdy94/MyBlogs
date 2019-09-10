@@ -1,0 +1,9 @@
+<h1>{{ title }}</h1>
+<hr/>
+
+<form method='POST' action='' enctype='multipart/form-data'>{% csrf_token %}
+{{ form }}
+<input type='submit' value='{{ title }}' />
+</form>
+<h4>If you are user LogIn?</h4>
+<h3><a href='../login/'>LogIn</a></h3>
